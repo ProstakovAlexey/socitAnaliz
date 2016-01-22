@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Производительность Социнформтех</title>
+    <meta charset="utf-8" />
+    <link href="css/style1.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!--#include file="header.html"-->
+    <h1>Данные о производительности веб-сервисов и веб-интефейса ТИ в Социнформтех (тестовый стенд ТУ)</h1>
+    <div id="graphs">
+        <div>
+            Работа веб-интерфейса ТИ
+            <img src="fig/ТУ/Тестирование веб-интерфейса ТИ.png" alt="веб-интерфейс ТИ" />
+        </div>
+        <div>
+            Работа 409 сервиса
+            <img src="fig/ТУ/Тестирование 409 сервиса.png" alt="сервис 409" />
+        </div>
+        <div>
+            Работа сервиса интеграции с ПГУ
+            <img src="fig/ТУ/Тестирование ПГУ сервиса.png" alt="ПГУ" />
+        </div>
+    </div>
+    <h1>Информация о запросах СМЭВ, заявления ПГУ за вчерашний день</h1>
+    <div id="graphs">
+        <div>
+            Заявления ПГУ
+            <img src="fig/ТУ/ПГУ.png" alt="заявления ПГУ" />
+        </div>
+        <div>
+           СМЭВ запросы 
+            <img src="fig/ТУ/СМЭВ.png" alt="СМЭВ запросы" />
+        </div>
+    </div>
+    <!--#include file="content.html"-->
+</body>
+</html>
+

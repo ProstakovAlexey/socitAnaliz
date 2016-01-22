@@ -1,43 +1,78 @@
 /*
  *  Это CSS для сайта по проверке настроек госуслуг
-*/ 
+*/
 body {
-	font-family: "Droid Sans", Verdana, Helvetica, Arial, sans-serif;
-	padding-left: 3px;
+    font-family: "Droid Sans", Verdana, Helvetica, Arial, sans-serif;
 }
 
-h1,h2,h3 {
-	font-weight: bold;
-	color: white;
-	background-color: blue;
-	padding: 3px;
-	padding-left: 10px;
+#header {
+    padding:0 20px;
 }
 
-#header{
-	background-color: Gainsboro;
+#content {
+    padding:0 20px;
+}
+#header p {
+    color: #333;
+    font-size: 16px;
 }
 
-/* Навигатор */
-#navigator a {
-	text-decoration: none;
-
-}
 #navigator {
-	background-color: Gainsboro;
-	width: 200px;
-	border-style: double;
-	border-width: 2px;
-	border-color: blue;
-}
-.comment {
-	color: navy;
-	font-size: small;
-	padding-left: 20px;	
+    text-align: center;
+    padding-bottom: 20px;
 }
 
-label.fixewidth {
-	width: 350px;
-	float: left;
+    #navigator ul {
+        list-style: none;
+    }
+
+        #navigator ul li {
+            display: inline-block;
+        }
+
+            #navigator ul li a {
+                background-color: gainsboro;
+                display: block;
+                color: black;
+                font-size: 20px;
+                text-transform: uppercase;
+                /*font-family: 'Century Gothic', Arial;*/
+                font-family: "Droid Sans", Verdana, Helvetica, Arial, sans-serif;
+                padding: 5px;
+                margin: 3px;
+                text-decoration: none;
+                width: 300px;
+            }
+
+h1 {
+    font-family: 'Century Gothic', Arial;
 }
 
+h1 {
+    font-size: 30px;
+    color: Steelblue;
+    padding: 3px;
+    text-align: center;
+}
+
+#graphs {
+    text-align: center;
+}
+
+    #graphs div {
+        border: solid 1px gray;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        text-align: center;
+        width: 610px;
+        height: 450px;
+        margin: 10px;
+        display: inline-block;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+        padding: 3px;
+        margin: 3px;
+    }

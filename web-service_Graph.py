@@ -37,8 +37,8 @@ set xtic rotate by 90 scale 0 offset character 0,-2
 plot 'data.tmp' u 1:4 ti "Ошибки" with impulse axes x1y2,\
 '' u 1:3 ti "#SERVICE_NAME#" w li lw 2
 """
-logging.basicConfig(filename='web-service_Graph.log', filemode='a', level=logging.INFO,
-    format='%(asctime)s %(levelname)s: %(message)s')
+logging.basicConfig(filename='graph.log', filemode='a', level=logging.INFO,
+    format='Веб-интерфейс: %(asctime)s %(levelname)s: %(message)s')
 showTime = datetime.datetime.now() - datetime.timedelta(days=7)
 
 
@@ -282,8 +282,5 @@ if __name__ == '__main__':
                 plotGraph(get)
     # закрывает соединения с БД
     client.close()
-    # удаляем временные файлы
-    subprocess.call(['rm', 'gnuplot.tmp'])
-    subprocess.call(['rm', 'data.tmp'])
     logging.info('Программа работу закончила')
     exit(0)

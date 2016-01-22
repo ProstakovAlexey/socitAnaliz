@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Производительность Липецк</title>
+    <meta charset="utf-8" />
+    <link href="css/style1.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!--#include file="header.html"-->
+    <h1>Данные о производительности веб-сервисов и веб-интефейса ТИ в Липецке</h1>
+    <div id="graphs">
+        <div>
+            Работа веб-интерфейса ТИ
+            <img src="fig/Липецк/Тестирование веб-интерфейса ТИ.png" alt="веб-интерфейс ТИ" />
+        </div>
+    </div>
+    <!--#include file="content.html"-->
+</body>
+</html>
+

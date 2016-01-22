@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Производительность Тула</title>
+    <meta charset="utf-8" />
+    <link href="css/style1.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!--#include file="header.html"-->
+    <h1>Данные о производительности веб-сервисов и веб-интефейса ТИ в Туле (ГАУ ЦИТ)</h1>
+    <div id="graphs">
+        <div>
+            Работа 409 сервиса
+            <img src="fig/Тула/Тестирование 409 сервиса.png" alt="сервис 409" />
+        </div>
+        <div>
+            Работа веб-интерфейса ТИ
+            <img src="fig/Тула/Тестирование веб-интерфейса ТИ.png" alt="веб-интерфейс ТИ" />
+        </div>
+    </div>
+    <h1>Информация о запросах СМЭВ, заявления ПГУ за вчерашний день</h1>
+    <div id="graphs">
+        <div>
+            Заявления ПГУ
+            <img src="fig/Тула/ПГУ.png" alt="заявления ПГУ" />
+        </div>
+        <div>
+           СМЭВ запросы 
+            <img src="fig/Тула/СМЭВ.png" alt="СМЭВ запросы" />
+        </div>
+    </div>
+    <!--#include file="content.html"-->
+</body>
+</html>
+
